@@ -82,8 +82,8 @@ function updateFilters() {
     if (country) {
       filteredData = filteredData.filter(row => row.country === country);
     }
-    if (country) {
-      filteredData = filteredData.filter(row => row.state === state);
+    if (shape) {
+      filteredData = filteredData.filter(row => row.shape === shape);
     }
   
     // 10. Finally, rebuild the table using the filtered data
